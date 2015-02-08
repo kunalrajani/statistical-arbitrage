@@ -1,7 +1,7 @@
 
 Abstract
 
-The objective of this analysis is to obtain an alpha that is based on statistically exploring ineffi ciencies in stock prices. The strategy involves decomposing stock prices in each industry into principal components that explain the most variance and then regress the stock prices on those components to obtain the stock's  dependence on them. Next the components are forecasted using GARCH model and hence the forecasted evolution of the stocks is also obtained based on the regression results. Based on these forecasts I will create a long-short neutral arbitrage strategy with the aim of achieving high risk adjusted returns.
+The objective of this analysis is to obtain an alpha that is based on statistically exploring inefficiencies in stock prices. The strategy involves decomposing stock prices in each industry into principal components that explain the most variance and then regress the stock prices on those components to obtain the stock's  dependence on them. Next the components are forecasted using GARCH model and hence the forecasted evolution of the stocks is also obtained based on the regression results. Based on these forecasts I will create a long-short neutral arbitrage strategy with the aim of achieving high risk adjusted returns.
 
 
 create_data.m is used to pull data for a list of tickers from yahoo finance and parse the information as relevant objects in matlab.
@@ -21,7 +21,7 @@ Once these prices are obtained the investment decisions is made based on the dif
 
 
 Disclaimer: Please read:
-Please note that this is my independent work where I have used data from yahoo finance to explore statistical concepts from a course I took in statistics. It may inadvertently have an overlap with a work that somebody else has already done and I have no intentions of replicating it. I would be glad to know of any such clash and post a clarification in this README.
-I am open to having my work being redistributed or used but only after due credit and a reference has been made. Feel free to contact me to avoid any misunderstandings or if you need more details from this paper. 
+Please note that this is my independent work where I have used data from yahoo finance to explore statistical concepts from a course I took in statistics. It may, inadvertently, have an overlap with a work that somebody else has already done and I have no intentions of replicating it. I would be glad to know of any such clash and post an addendum in this README.
+Redistribution of this work is permitted only after due credit and a reference has been provided. Feel free to contact me to avoid any misunderstandings or if you need more details from this paper. 
 
 
